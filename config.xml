@@ -128,7 +128,7 @@
     <gap:plugin name="ch.ti8m.documenthandler" source="git" spec="https://github.com/ti8m/DocumentHandler.git" />
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
     <gap:config-file parent="/manifest" platform="android">
-        <application android:debuggable="false" />
+        <application android:debuggable="true" />
     </gap:config-file>
     <preference name="permissions" value="none" />
     <gap:config-file mode="delete" parent="/manifest" platform="android">
