@@ -38,6 +38,7 @@
     <preference name="BackupWebStorage" value="none" />
     <preference name="KeyboardDisplayRequiresUserAction" value="false" />
     <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="android-build-tool" value="gradle" /> 
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
@@ -125,6 +126,7 @@
     <gap:plugin name="cordova-plugin-local-notifications-mm" source="npm" />
     <gap:plugin name="net.tunts.webintent" source="git" spec="https://github.com/Tunts/WebIntent.git" />
     <gap:plugin name="ch.ti8m.documenthandler" source="git" spec="https://github.com/ti8m/DocumentHandler.git" />
+    <gap:plugin name="cordova-plugin-admobpro" source="npm" />
     <gap:config-file parent="/manifest" platform="android">
         <application android:debuggable="false" />
     </gap:config-file>
