@@ -127,7 +127,7 @@
     <gap:plugin name="net.tunts.webintent" source="git" spec="https://github.com/Tunts/WebIntent.git" />
     <gap:plugin name="ch.ti8m.documenthandler" source="git" spec="https://github.com/ti8m/DocumentHandler.git" />
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
-    <gap:config-file parent="/manifest" platform="android">
+   
         <application android:debuggable="true" />
     </gap:config-file>
     <preference name="permissions" value="none" />
